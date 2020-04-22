@@ -1,0 +1,76 @@
+body{
+    line-height: 1.5;
+    font-family: var(--tipo);
+    font-weight: var(--tipo-normal);
+    color: var(--white);
+}
+
+a{
+    color: var(--white);
+}
+
+a:hover{
+    color: var(--hover-2);
+    transition: color 0.2s linear;
+}
+
+.feed a{
+    color: var(--black);
+}
+
+.feed a:hover{
+    color: var(--hoverlink);
+}
+
+.heather a{
+    color: var(--black);
+}
+
+.text-intro{
+    font-size: var(--text-l);
+    font-weight: var(--tipo-light);
+}
+
+.text-quienes{
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+}
+
+.text-bold{
+    font-weight: var(--tipo-normal);
+}
+
+.text-title{
+    font-size: var(--text-l);
+    font-weight: var(--tipo-normal);
+}
+
+.feed-title{
+   text-align: center;
+   padding-top: var(--margin-v-l);
+   padding-bottom: var(--margin-v-m);
+
+}
+
+.feed{
+    color: var(--black);
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.copyright{
+    font-size: var(--copyright);
+    font-weight: var(--tipo-light);
+}
+
+.logo a{
+    font-size: 300px;
+}
+
+.tipos{
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: square;
+}

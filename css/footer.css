@@ -1,0 +1,48 @@
+input[type=text] {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    margin-top: 25px;
+    padding: 10px 0px 10px 0px;
+    outline: none;
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+    color: var(--hover-2);
+}
+
+input::placeholder{
+    color: var(--hoverlink);
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+    padding: 0 0 35px 0;
+    transition: color 0.1s linear;
+
+}
+
+input:hover::placeholder{
+    color: var(--hover-2);
+}
+
+.footer{
+    margin-bottom: var(--margin-v-s);
+}
+  
+form{
+    display: flex;
+    border-bottom: 2px solid var(--white);
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.hover:hover{
+    opacity: 0.4;
+    transition: opacity 0.2s linear;
+
+}
+
+  

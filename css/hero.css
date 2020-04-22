@@ -1,0 +1,29 @@
+.hero{
+
+}
+
+.hero-slide{
+    height: 100vh;
+    position: relative;
+}
+
+.hero img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+}
+
+.hero-text{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.hero-date{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+

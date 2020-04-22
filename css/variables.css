@@ -1,0 +1,25 @@
+html {
+    /*Font Family*/
+    --tipo: 'Roboto', Arial, sans-serif;
+    --tipo-light: 300;
+    --tipo-normal: 500;
+
+    /*Colores*/
+    --white: #ffffff;
+    --black: #111111;
+    --hoverlink: #FC313C;
+    --hover-2: #611317;
+    --rojoclaro: #FC8A91;
+    --gris: rgb(116, 116, 116);
+
+    /*Escala tipográfica*/
+    --text-base: 26px;
+    --text-l: 34px;
+    --copyright: 18px;
+    --logo: 35px;
+
+    /*Espaciados*/
+    --margin-v-l: 190px;
+    --margin-v-m: 100px;
+    --margin-v-s: 35px;
+}

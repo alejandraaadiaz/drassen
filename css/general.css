@@ -1,0 +1,39 @@
+/* Base */
+
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    max-width: 100%;
+}
+
+img:hover{
+    opacity: 0.8;
+    transition: opacity 0.25s linear;
+}
+
+.tablas:hover{
+    opacity: 1;
+}
+
+video{
+    max-width: 100%;
+}
+
+video:hover{
+    opacity: 0.8;
+    transition: opacity 0.25s linear;
+}
+
+body {
+    background-color: var(--hoverlink);
+} 
+
+
+::selection{
+    background-color: var(--hoverlink);
+    color: var(--white);
+}
+
+

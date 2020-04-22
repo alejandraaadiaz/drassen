@@ -1,0 +1,41 @@
+
+input{
+    background-color: transparent;
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light);
+    font-size: var(--text-base);
+    width: 100%;
+    margin-top: 10px;
+    color: var(--black);
+    min-height: 60px;
+}
+
+input::placeholder{
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light);
+    color: var(--gris);
+    font-size: var(--text-base);
+}
+
+input[type=text]{
+    border-bottom: 1px solid var(--hoverlink);
+}
+
+input[type=submit]{
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    width: 25%;
+    color: var(--white);
+    background-color: var(--hoverlink);
+    border-radius: 5px;
+}
+
+input:not([type=text]):hover{
+    background-color: var(--hover-2);
+}
+
+form{
+    display: block;
+    max-width: 70%;
+}

@@ -1,0 +1,74 @@
+
+.heather{
+  display: flex;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--white);
+  padding: 20px 40px;
+
+
+}
+
+#navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heather a:hover{
+    color: var(--hoverlink);
+}
+  
+#navbar a {
+    text-decoration: none;
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+}
+
+.menu-nav{
+    display: none;
+}
+.show-menu{
+    display: none;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absol;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+    background-color: var(--white);
+    padding: 25px;
+    text-align: left;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: var(--tipo-light);
+    padding: 10px;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

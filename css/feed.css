@@ -1,0 +1,22 @@
+.feed{
+    background-color: var(--white);
+}
+
+.conceptos{
+    background-color: var(--pink);
+    color: var(--white);
+}
+
+.feed-bottom{
+    margin-bottom: var(--margin-v-s);
+    font-weight: var(--tipo-normal);
+}
+
+.feed-top{
+    margin-top: var(--margin-v-s);
+}
+
+.feed-double{
+    display: flex;
+    align-items: baseline;
+ }

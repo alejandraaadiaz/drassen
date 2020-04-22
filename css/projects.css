@@ -1,0 +1,69 @@
+.project-photo{
+    display: block;
+    margin-bottom: var(--margin-v-s);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-photo-1{
+    max-width: 400px;
+    margin-right: 100px;
+}
+
+.project-photo-4{
+    
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.project-caption{
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+}
+
+.product-caption{
+    font-weight: var(--tipo-normal);
+    font-size: 30px;
+}
+
+.project-double{
+   display: flex;
+   align-items: flex-start;
+}
+
+.project-double-2{
+   align-items: flex-start; 
+}
+
+.project-3 .project-caption{
+    margin-top: 40px;
+}
+
+.caption-flex, .project-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectwi{
+    width: 45%;
+}
+
+.imgquienes img{
+    max-height: 100px;
+}
+
+.centerp{
+    text-align: center;
+}
+.images{
+    max-width: 400px; 
+    margin-right: 40px;
+}
+
+.imgleft{
+    margin-left: 40px;
+}
+
+.blockimg{
+    display: none;
+}
